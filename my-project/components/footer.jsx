@@ -1,9 +1,14 @@
 // import React from 'react'
 
-function footer() {
-  return (
-    <div>footer</div>
-  )
-}
+// import React from 'react';
 
-export default footer
+const footer = () => {
+  return (
+    <footer className="my-cuto text-gray-300 text-center p-4 bg-[#603808]">
+      <p>&copy; {new Date().getFullYear()} portfolio</p>
+      <p>Created by Gaelle</p>
+    </footer>
+  );
+};
+
+export default footer;
