@@ -1,51 +1,58 @@
 const portfolios = () => {
   return (
-    <div><section className="bg-gray-900 text-white">
+    <div><section className="bg-gray-900 text-white h-screen">
     <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
       <div className="mx-auto max-w-lg text-center">
-        <h2 className="text-3xl font-bold sm:text-4xl">Kickstart your marketing</h2>
+        <h2 className="text-3xl font-bold sm:text-4xl text-teal-500">My Recent Projects</h2>
   
         <p className="mt-4 text-gray-300">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-          nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
+        Over the past few months, I've been deeply engaged in a series of exciting projects that 
+        have expanded my skills and perspectives. From developing innovative mobile applications
+         , my recent work reflects a commitment to
+          leveraging technology for impactful solutions. 
         </p>
       </div>
   
       <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-2 ">
+
      <a
           className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-teal-200 hover:shadow-teal-300"
           href="#"
         >
          <img src ="/im2.png" className="" alt=""   />
-          <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+          <h2 className="mt-4 text-xl font-bold text-teal-400">Age calculator</h2>
   
           <p className="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+          The Age Calculator project is a simple web applicationUsers whwere user can enter
+           their birthdate in a form and the application will calculate their age based
+           on the current date.
           </p>
         </a>
+
         <a
           className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-teal-200 hover:shadow-teal-300 "
           href="#"
         >
-         <img src ="/im1.png" className="" alt=""   />
-          <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+         <img src ="/im1.png" className="" alt=""/>
+          <h2 className="mt-4 text-xl font-bold text-teal-400">Random Emojis</h2>
   
           <p className="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+          The Random Emoji Face project is a fun and interactive web application that 
+          generates a random emoji face based on the user's mood.
+           The user can choose between different mood options such as happy, sad, or surprised.
           </p>
         </a>
         <a
           className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-teal-200 hover:shadow-teal-300"
           href="#"
         >
-         <img src ="/countryapp.png" className="" alt=""   />
-          <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+         <img src ="/countryapp.png" className="" alt=""/>
+          <h2 className="mt-4 text-xl font-bold text-teal-500">Country Apis </h2>
   
           <p className="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+          The Country APIs application allows users to search for a specific 
+          country using its name or ISO code. The country information 
+          includes details such as the country's population, area, capital, and official language.
           </p>
         </a>
         <a
@@ -53,11 +60,12 @@ const portfolios = () => {
           href="#"
         >
          <img src ="/im3.png" className="" alt=""   />
-          <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+          <h2 className="mt-4 text-xl font-bold text-teal-500">Roll Dice</h2>
   
           <p className="mt-1 text-sm text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-            distinctio alias voluptatum blanditiis laudantium.
+           The Roll Dice project is a web application that simulates the behavior of a six-sided die.
+           The application generates a random number between 1 and 6 and displays it to the user. 
+            it also includes a button that allows the user to roll the dice again and generate a new random number.
           </p>
         </a>
 
