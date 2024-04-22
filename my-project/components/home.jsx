@@ -1,9 +1,3 @@
-// import React from "react";
-// import home from "./components/Home";
-// import Navabar from "./navabar"
-// import React from 'react'
-
-// import React from 'react';
 
 const Home = () => {
   return (
