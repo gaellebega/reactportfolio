@@ -21,7 +21,7 @@ const Projects = () => {
               <p className="text-gray-700 mb-4">
                 this is my first portfolio created with using html and css.
               </p>
-              <a href="#https://gaellebega.github.io/Portifolio1/" className="text-teal-600 hover:underline">
+              <a href="https://gaellebega.github.io/Portifolio1/" className="text-teal-600 hover:underline">
                 View Portfolio
               </a>
             </div>
@@ -37,7 +37,7 @@ const Projects = () => {
               <p className="text-gray-700 mb-4">
                 this is my second potfolio created using html, tailwindcss and javascript.
               </p>
-              <a href="#https://gaellebega.github.io/MYPORTFOLIO/" className="text-teal-600 hover:underline">
+              <a href="https://myportfolio-9wi3.onrender.com" className="text-teal-600 hover:underline">
                 View Portfolio
               </a>
             </div>
