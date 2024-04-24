@@ -9,8 +9,6 @@ import Contacts from "../components/contacts"
 import {BrowserRouter as Router ,Routes, Route} from  "react-router-dom";
 import Portfolios from "../components/portfolios";
 
-
-
 function App() {
   return (
     <>
